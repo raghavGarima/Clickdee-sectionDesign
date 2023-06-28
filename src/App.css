@@ -36,3 +36,106 @@
     transform: rotate(360deg);
   }
 }
+
+
+.headingSec{
+  font-size: 33px;
+    font-weight: 500;
+}
+.mainDiv{
+  margin: 4rem 0px 2rem 6rem;
+}
+.firstSubDiv{
+  display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.infoSec{
+  width: 80%;
+
+  padding: 15px 34px 17px 16px;
+  
+
+}
+.cardDiv{
+  width: 40rem;
+  padding: 40px;
+  background-color: #f7f7f7;
+  height: 14rem;
+  max-height: 15rem;
+}
+.whiteCarDiv{
+  background-color: white;
+}
+.cardDiv:hover{
+width: 40.5rem;
+height: 15rem ;
+background-color: white;
+box-shadow: 0px 3px 6px #00000029;
+transition: height 1s;
+margin-top: -1rem;
+
+}
+
+
+.secondSubDiv{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-left: 8.6rem;
+}
+.cardHeading{
+  font-size: 24px;
+  font-weight: 400;
+ /* opacity: 0; */
+
+}
+.cardSubHeading{
+  opacity: 0;
+}
+.cardDiv:hover .cardSubHeading{
+  transition: opacity 2s;
+  opacity: 1;
+}
+.iconDim{
+  width: 65px;
+  height: 60px;
+}
+@media (max-width:768px) {
+  .firstSubDiv{
+  flex-direction: column;
+}
+.secondSubDiv{
+  flex-direction: column;
+
+}
+.mainDiv {
+  margin: 2rem;
+}
+.headingSec {
+  font-size: 28px;
+  font-weight: 400;
+}
+.infoSec {
+  width: unset;
+  padding: unset;
+}
+.cardDiv{
+  width: unset;
+  background-color: #f6fbfe;
+  margin-bottom: 50px;
+  height: unset;
+  max-height: unset;
+
+  padding: 25px;
+
+}
+.secondSubDiv{
+  padding-left: unset;
+}
+.cardSubHeading{
+  opacity: 1;
+  font-size: 16px;
+  font-weight: 300;
+}
+}
